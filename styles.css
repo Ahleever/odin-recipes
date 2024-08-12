@@ -1,7 +1,7 @@
 /* styles.css */
 
 div {
-    color: white;
+    color: black;
     background-color: black;
 }
 
@@ -14,4 +14,27 @@ li {
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: large;
+}
+
+.container {
+    background-color: bisque;
+    padding: 12px;
+    border: 4x dashed red;
+    display: flex;
+}
+
+.steps {
+    background-color: orange;
+    padding: 12px;
+    border: 10px dashed red;
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredients {
+    background-color: blanchedalmond;
+    padding: 12px;
+    border: 4x dashed yellow;
+    display: flex;
+    flex-direction: column;
 }
